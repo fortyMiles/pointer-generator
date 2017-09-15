@@ -28,6 +28,9 @@ from model import SummarizationModel
 from decode import BeamSearchDecoder
 import util
 from tensorflow.python import debug as tf_debug
+import os
+
+os.environ['CUDA_DEVICES_VISIBLE'] = '4, 5, 6'
 
 FLAGS = tf.app.flags.FLAGS
 
