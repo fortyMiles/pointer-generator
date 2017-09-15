@@ -30,7 +30,7 @@ import util
 from tensorflow.python import debug as tf_debug
 import os
 
-os.environ['CUDA_VISIBLE_DEVICES'] = '4, 5, 6'
+os.environ['CUDA_VISIBLE_DEVICES'] = '1, 2, 3'
 
 FLAGS = tf.app.flags.FLAGS
 
